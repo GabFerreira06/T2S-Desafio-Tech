@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+.img{
+    display: flex;
+    width: 20%;
+    border-radius: 15px;
+}
+header{
+    display: flex;
+    position:fixed;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(33, 33, 33);
+    
+}
+.Logotipo{
+    width: 100px;
+    justify-content: left;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: white;
+    font-weight: 600;
+}
+a:hover{
+    color:rgb(55, 55, 215);
+    transition: 0.3s all;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(193, 193, 193);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3vw;
+}
+.title{
+    font-size: 2.5vw;
+    padding-top: 120px;
+    text-align: center;
+}
+.resume{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5VW;
+    margin-top: 4vw;
+    margin-left: 15vw;
+}
+.more{
+    padding: 20px;
+    border-radius: 20px;
+    padding-inline: 30px;
+}
+.iResume{
+    margin-top: -6vw;
+    margin-right: 7vw;
+    width: 40%;
+}
+.about{
+    display: flex;
+    text-align: center;
+    padding: 5%;
+    padding-inline: 10%;
+    font-size: 1.3vw;
+    color: rgb(56, 166, 235);
+    background-color: rgb(58, 58, 58);
+
+}
+.bulletpoints{
+    display: flex;
+    font-size: 1.3vw;
+    background-color: rgb(58, 58, 58);
+}
+.bullet-element{
+    padding: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5%;
+    background-color: rgb(56, 166, 235);
+    border-radius: 20px;
+}
+.client{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    text-align: right;
+    font-size: 1.3vw;
+}
+blockquote{
+    background-color: rgb(47, 155, 223);
+    border-radius: 15px;
+    padding: 5%;
+}
+cite{
+    display: flex;
+    justify-content:end;
+    margin-left: 40%;
+    margin-top: -4%;
+    padding: 2%;
+    margin-right: -5%;
+    border-radius: 15px;
+    background-color: rgb(64, 136, 59);
+}
+.iClient{
+    margin-inline: 5%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(33, 33, 33);
+    width: 99%;
+    color: white;
+    margin-trim: 1%;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    width: 80%;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 10px;
+}
+.button{
+    cursor: pointer;
+    background-color: rgb(44, 146, 235);
+}
+
+.iContato{
+    display: flex;
+    width: 25%;
+}
+
